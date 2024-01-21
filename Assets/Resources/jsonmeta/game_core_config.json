@@ -1,0 +1,236 @@
+{
+    "skinChip":{
+        "rewardCountList":[
+            10000, 5000, 2000, 1000
+        ],
+        "config":[
+            {"progress":0, "weight":[10,0,0,0]},
+            {"progress":1000, "weight":[8,2,0,0]},
+            {"progress":2000, "weight":[7,2,1,0]},
+            {"progress":3000, "weight":[6,3,1,0]},
+            {"progress":4000, "weight":[4,3,3,0]},
+            {"progress":5000, "weight":[2,3,3,2]},
+            {"progress":6000, "weight":[0,3,3,4]},
+            {"progress":7000, "weight":[0,0,3,7]},
+            {"progress":8000, "weight":[0,0,0,10]},
+            {"progress":9000, "weight":[0,0,0,10]},
+            {"progress":10000, "weight":[0,0,0,10]}
+        ],
+        "gameFF":[
+            {"id":1, "level":"S", "msg":"Monkey_key_info", "name":"Monkey_key", "collectChip":100, "weights":[10,5,2,0], "icon":"FF_Monkey", "card":"CARD_FF_Monkey"},
+            {"id":2, "level":"S", "msg":"Maxim_key_info", "name":"Maxim_key", "collectChip":100, "weights":[100,20,10,0], "icon":"FF_Maxim", "card":"CARD_FF_Maxim"},
+            {"id":3, "level":"A", "msg":"Xayne_key_info", "name":"Xayne_key", "collectChip":75, "weights":[5,2,1,0], "icon":"FF_Xayne", "card":"CARD_FF_Xayne"},
+            {"id":4, "level":"B", "msg":"MoCo_key_info", "name":"MoCo_key", "collectChip":50, "weights":[2,2,1,0], "icon":"FF_MoCo", "card":"CARD_FF_MoCo"},
+            {"id":5, "level":"B", "msg":"Hayato_key_info", "name":"Hayato_key", "collectChip":50, "weights":[2,2,1,0], "icon":"FF_Hayato", "card":"CARD_FF_Hayato"},
+            {"id":6, "level":"S", "msg":"Caroline_key_info", "name":"Caroline_key", "collectChip":100, "weights":[200,50,10,0], "icon":"FF_Caroline", "card":"CARD_FF_Caroline"},
+            {"id":7, "level":"S", "msg":"Rafael_key_info", "name":"Rafael_key", "collectChip":100, "weights":[10,5,2,0], "icon":"FF_Rafael", "card":"CARD_FF_Rafael"},
+            {"id":8, "level":"A", "msg":"Alvaro_key_info", "name":"Alvaro_key", "collectChip":75, "weights":[5,2,1,0], "icon":"FF_Alvaro", "card":"CARD_FF_Alvaro"},
+            {"id":9, "level":"B", "msg":"Notora_key_info", "name":"Notora_key", "collectChip":50, "weights":[2,2,1,0], "icon":"FF_Notora", "card":"CARD_FF_Notora"},
+            {"id":10, "level":"B", "msg":"Steffie_key_info", "name":"Steffie_key", "collectChip":50, "weights":[2,2,1,0], "icon":"FF_Steffie", "card":"CARD_FF_Steffie"}
+        ],
+        "gameML":[
+            {"id":1, "level":"S", "msg":"Pharsa_key_info", "name":"Pharsa_key", "collectChip":100, "weights":[10,5,2,0], "icon":"ML_Pharsa", "card":"CARD_ML_Pharsa"},
+            {"id":2, "level":"S", "msg":"MiYa_key_info", "name":"MiYa_key", "collectChip":100, "weights":[100,20,10,0], "icon":"ML_MiYa", "card":"CARD_ML_MiYa"},
+            {"id":3, "level":"A", "msg":"X.Borg_key_info", "name":"X.Borg_key", "collectChip":75, "weights":[5,2,1,0], "icon":"ML_X.Borg", "card":"CARD_ML_X.Borg"},
+            {"id":4, "level":"B", "msg":"Lancelot_key_info", "name":"Lancelot_key", "collectChip":50, "weights":[2,2,1,0], "icon":"ML_Lancelot", "card":"CARD_ML_Lancelot"},
+            {"id":5, "level":"B", "msg":"Ruby_key_info", "name":"Ruby_key", "collectChip":50, "weights":[2,2,1,0], "icon":"ML_Ruby", "card":"CARD_ML_Ruby"}
+        ],
+        "gameRB":[
+            {"id":1, "level":"S", "msg":"Skylas_key_info", "name":"Skylas_key", "collectChip":100, "weights":[100,20,10,0], "icon":"RB_Skylas", "card":"CARD_RB_Skylas"},
+            {"id":2, "level":"S", "msg":"Jailbreak_key_info", "name":"Jailbreak_key", "collectChip":100, "weights":[10,5,2,0], "icon":"RB_Jailbreak", "card":"CARD_RB_Jailbreak"},
+            {"id":3, "level":"A", "msg":"Aven_key_info", "name":"Aven_key", "collectChip":75, "weights":[5,2,1,0], "icon":"RB_Aven", "card":"CARD_RB_Aven"},
+            {"id":4, "level":"B", "msg":"CTL_key_info", "name":"CTL_key", "collectChip":50, "weights":[2,2,1,0], "icon":"RB_CTL", "card":"CARD_RB_CTL"},
+            {"id":5, "level":"B", "msg":"PST_key_info", "name":"PST_key", "collectChip":50, "weights":[2,2,1,0], "icon":"RB_PST", "card":"CARD_RB_PST"},
+            {"id":6, "level":"S", "msg":"KD_key_info", "name":"KD_key", "collectChip":100, "weights":[10,5,2,0], "icon":"RB_KD", "card":"CARD_RB_KD"},
+            {"id":7, "level":"S", "msg":"HH_key_info", "name":"HH_key", "collectChip":100, "weights":[200,50,10,0], "icon":"RB_HH", "card":"CARD_RB_HH"},
+            {"id":8, "level":"A", "msg":"TGB_key_info", "name":"TGB_key", "collectChip":75, "weights":[5,2,1,0], "icon":"RB_TGB", "card":"CARD_RB_TGB"},
+            {"id":9, "level":"B", "msg":"MF_key_info", "name":"MF_key", "collectChip":50, "weights":[2,2,1,0], "icon":"RB_MF", "card":"CARD_RB_MF"},
+            {"id":10, "level":"B", "msg":"Skeleton_key_info", "name":"Skeleton_key", "collectChip":50, "weights":[2,2,1,0], "icon":"RB_Skeleton", "card":"CARD_RB_Skeleton"}
+        ],
+        "gameLOL":[
+            {"id":1, "level":"S", "name":"LOL_Vayne_key", "collectChip":100, "weights":[100,20,10,0], "icon":"LOL_Vayne", "card":"CARD_LOL_Vayne"},
+            {"id":2, "level":"S", "name":"LOL_CovenAhri_key", "collectChip":100, "weights":[10,5,2,0], "icon":"LOL_CovenAhri", "card":"CARD_LOL_CovenAhri"},
+            {"id":3, "level":"A", "name":"LOL_Yasuo_key", "collectChip":75, "weights":[5,2,1,0], "icon":"LOL_Yasuo", "card":"CARD_LOL_Yasuo"},
+            {"id":4, "level":"B", "name":"LOL_Battle_key", "collectChip":50, "weights":[2,2,1,0], "icon":"LOL_Battle", "card":"CARD_LOL_Battle"},
+            {"id":5, "level":"B", "name":"LOL_LeeSin_key", "collectChip":50, "weights":[2,2,1,0], "icon":"LOL_LeeSin", "card":"CARD_LOL_LeeSin"}
+        ],
+        "gamePM":[
+            {"id":1, "level":"S", "name":"PM_MistyRose_key", "collectChip":100, "weights":[10,5,2,0], "icon":"PM_MistyRose", "card":"CARD_PM_MistyRose"},
+            {"id":2, "level":"S", "name":"PM_Blackadder_key", "collectChip":100, "weights":[100,20,10,0], "icon":"PM_Blackadder", "card":"CARD_PM_Blackadder"},
+            {"id":3, "level":"A", "name":"PM_KingGlaciers_key", "collectChip":75, "weights":[5,2,1,0], "icon":"PM_KingGlaciers", "card":"CARD_PM_KingGlaciers"},
+            {"id":4, "level":"B", "name":"PM_SeasHoly_key", "collectChip":50, "weights":[2,2,1,0], "icon":"PM_SeasHoly", "card":"CARD_PM_SeasHoly"},
+            {"id":5, "level":"B", "name":"PM_MarinePioneers_key", "collectChip":50, "weights":[2,2,1,0], "icon":"PM_MarinePioneers", "card":"CARD_PM_MarinePioneers"}
+        ],
+        "gameBS":[
+            {"id":1, "level":"S", "msg":"BS_科莱特_key_info", "name":"BS_科莱特_key", "collectChip":100, "weights":[10,5,2,0], "icon":"BS_科莱特", "card":"CARD_BS_科莱特"},
+            {"id":2, "level":"S", "msg":"BS_瑟奇_key_info", "name":"BS_瑟奇_key", "collectChip":100, "weights":[100,20,10,0], "icon":"BS_瑟奇", "card":"CARD_BS_瑟奇"},
+            {"id":3, "level":"A", "msg":"BS_格尔_key_info", "name":"BS_格尔_key", "collectChip":75, "weights":[5,2,1,0], "icon":"BS_格尔", "card":"CARD_BS_格尔"},
+            {"id":4, "level":"B", "msg":"BS_潘妮_key_info", "name":"BS_潘妮_key", "collectChip":50, "weights":[2,2,1,0], "icon":"BS_潘妮", "card":"CARD_BS_潘妮"},
+            {"id":5, "level":"B", "msg":"BS_芽芽_key_info", "name":"BS_芽芽_key", "collectChip":50, "weights":[2,2,1,0], "icon":"BS_芽芽", "card":"CARD_BS_芽芽"},
+            {"id":6, "level":"S", "msg":"ASH_key_info", "name":"ASH_key", "collectChip":100, "weights":[200,50,10,0], "icon":"BS_ASH", "card":"CARD_BS_ASH"},
+            {"id":7, "level":"S", "msg":"BELLE_key_info", "name":"BELLE_key", "collectChip":100, "weights":[10,5,2,0], "icon":"BS_BELLE", "card":"CARD_BS_BELLE"},
+            {"id":8, "level":"A", "msg":"Lou_key_info", "name":"Lou_key", "collectChip":75, "weights":[5,2,1,0], "icon":"BS_Lou", "card":"CARD_BS_Lou"},
+            {"id":9, "level":"B", "msg":"LEON_key_info", "name":"LEON_key", "collectChip":50, "weights":[2,2,1,0], "icon":"BS_LEON", "card":"CARD_BS_LEON"},
+            {"id":10, "level":"B", "msg":"Spike_key_info", "name":"Spike_key", "collectChip":50, "weights":[2,2,1,0], "icon":"BS_Spike", "card":"CARD_BS_Spike"}
+        ],
+        "gameLM":[
+            {"id":1, "level":"S", "name":"Spirit Dance Fox-Nana", "collectChip":100, "weights":[100,20,10,0], "icon":"LM_灵狐", "card":"CARD_LM_灵狐"},
+            {"id":2, "level":"S", "name":"Recorder-Jiuya", "collectChip":100, "weights":[10,5,2,0], "icon":"LM_记录者", "card":"CARD_LM_记录者"},
+            {"id":3, "level":"A", "name":"Bomber Boy-Bremo", "collectChip":75, "weights":[5,2,1,0], "icon":"LM_炸弹小子", "card":"CARD_LM_炸弹小子"},
+            {"id":4, "level":"A", "name":"Lord of Ice-Shalem", "collectChip":50, "weights":[2,2,1,0], "icon":"LM_寒冰领主", "card":"CARD_LM_寒冰领主"},
+            {"id":5, "level":"B", "name":"Scammer-Tate", "collectChip":50, "weights":[2,2,1,0], "icon":"LM_诈骗者", "card":"CARD_LM_诈骗者"}
+        ],
+        "gameCC":[
+            {"id":1, "level":"S", "name":"Gladiator Guardian", "collectChip":100, "weights":[10,5,2,0], "icon":"CC_角斗士守护者", "card":"CARD_CC_角斗士守护者"},
+            {"id":2, "level":"S", "name":"King of Barbarians", "collectChip":100, "weights":[100,20,10,0], "icon":"CC_野蛮人之王", "card":"CARD_CC_野蛮人之王"},
+            {"id":3, "level":"A", "name":"Primitive Queen", "collectChip":75, "weights":[5,2,1,0], "icon":"CC_原始女皇", "card":"CARD_CC_原始女皇"},
+            {"id":4, "level":"A", "name":"Jungle Guardian", "collectChip":50, "weights":[2,2,1,0], "icon":"CC_丛林守护者", "card":"CARD_CC_丛林守护者"},
+            {"id":5, "level":"B", "name":"Party Queen", "collectChip":50, "weights":[2,2,1,0], "icon":"CC_派对女皇", "card":"CARD_CC_派对女皇"}
+        ],
+        "gameCD":[
+            {"id":1, "level":"S", "name":"The Red Devil Wave", "collectChip":100, "weights":[10,5,2,0], "icon":"CD_红魔浪潮", "card":"CARD_CD_红魔浪潮"},
+            {"id":2, "level":"S", "name":"Trendsetter", "collectChip":100, "weights":[100,20,10,0], "icon":"CD_潮流前锋", "card":"CARD_CD_潮流前锋"},
+            {"id":3, "level":"A", "name":"Eben", "collectChip":75, "weights":[5,2,1,0], "icon":"CD_艾本", "card":"CARD_CD_艾本"},
+            {"id":4, "level":"A", "name":"Baroness", "collectChip":50, "weights":[2,2,1,0], "icon":"CD_女爵", "card":"CARD_CD_女爵"},
+            {"id":5, "level":"B", "name":"Queen of Scorpion", "collectChip":50, "weights":[2,2,1,0], "icon":"CD_蝎心女王", "card":"CARD_CD_蝎心女王"}
+        ],
+        "stepList":[0,5000,8000,9000],
+        "videoLimitCount":5,
+        "offRatio":9000,
+        "skinChipDoubled":5000
+    },
+    "redeems":{
+        "redeemList":{
+            "101":{"id":101, "outType":2, "rewardVal":100, "collectTarget":100000, "index":1},
+            "201":{"id":201, "outType":1, "rewardVal":150, "collectTarget":3000000, "index":2},
+            "301":{"id":301, "outType":3, "rewardVal":200, "collectTarget":300, "index":3},
+            "102":{"id":102, "outType":2, "rewardVal":200, "collectTarget":200000, "index":4},
+            "202":{"id":202, "outType":1, "rewardVal":300, "collectTarget":6000000, "index":5}
+        },
+        "scales":[
+            45, 100, 68, 140, 60, 16, 150, 100, 10
+        ],
+        "gameList":{
+            "1":{"id":1, "msg":"无尽对决-沐瞳", "gameName":"Mobile Legends", "name":"ML"},
+            "2":{"id":2, "msg":"FreeFire-吃鸡", "gameName":"Free Fire", "name":"FF"},
+            "3":{"id":3, "msg":"Roblox-VR", "gameName":"Roblox", "name":"RB"},
+            "4":{"id":4, "msg":"英雄联盟", "gameName":"League of Legends", "name":"LOL"},
+            "5":{"id":5, "msg":"绝地求生-PUBG MOBILE", "gameName":"Pubg Mobile", "name":"PM"},
+            "6":{"id":6, "msg":"荒野乱斗-Brawl Stars", "gameName":"Brawl Stars", "name":"BS"},
+            "7":{"id":7, "msg":"Lords Mobile:Tower Defense", "gameName":"Lords Mobile:Tower Defense", "name":"LM"},
+            "8":{"id":8, "msg":"Clash of Clans", "gameName":"Clash of Clans", "name":"CC"},
+            "9":{"id":9, "msg":"Call of Duty®: Mobile - Elite of the Elite", "gameName":"Call of Duty®: Mobile - Elite of the Elite", "name":"CD"}
+        },
+        "guideReward":30000,
+        "dailyDiamond1":70000,
+        "dailyDiamond2":800,
+        "dailyDiamondLimit":9990,
+        "dailyDiamondGold":5000
+    },
+    "version":102,
+    "subVersion":1,
+    "minSubVersion":0,
+    "miscelConfig":{
+        "first_level":100,
+        "normal_diamind":1000,
+        "box_diamind":2000,
+        "box_gold":30000,
+        "add_gold":3000,
+        "mutil":0.2,
+        "box_diamind_max":9900,
+        "level_diamind_max":9999.5,
+        "spin_revive":20,
+        "spin_range":100,
+        "spin_diamind":0,
+        "spin_invite":7200,
+        "diamind_max":100000,
+        "gold_max":3000000,
+        "new_award":30000,
+        "skin_prcent":5000
+    },
+    "skinBallConfig":[
+        {"id":0, "level":0},
+        {"id":1, "level":15},
+        {"id":2, "level":45},
+        {"id":3, "level":75},
+        {"id":4, "level":105},
+        {"id":5, "level":150},
+        {"id":6, "level":210},
+        {"id":7, "level":350},
+        {"id":8, "level":500}
+    ],
+    "fixedConfig":[
+        {"level":1, "diamind":600, "mutil":10, "index":13},
+        {"level":2, "diamind":400, "mutil":4, "index":8},
+        {"level":3, "diamind":500, "mutil":5, "index":9}
+    ],
+    "diamindConfig":[
+        {"precent":0, "coefficient":1},
+        {"precent":6000, "coefficient":0.9},
+        {"precent":7000, "coefficient":0.8},
+        {"precent":8000, "coefficient":0.5},
+        {"precent":9000, "coefficient":0.3},
+        {"precent":9300, "coefficient":0.15},
+        {"precent":9600, "coefficient":0.08},
+        {"precent":9900, "coefficient":0.02},
+        {"precent":9950, "coefficient":0.008},
+        {"precent":9990, "coefficient":0.001},
+        {"precent":9999, "coefficient":0.0005}
+    ],
+    "goldConfig":[
+        {"precent":0, "coefficient":1},
+        {"precent":3000, "coefficient":0.8},
+        {"precent":5000, "coefficient":0.6},
+        {"precent":7000, "coefficient":0.4},
+        {"precent":8000, "coefficient":0.3},
+        {"precent":9000, "coefficient":0.1},
+        {"precent":9300, "coefficient":0.05},
+        {"precent":9600, "coefficient":0.01},
+        {"precent":9900, "coefficient":0.005},
+        {"precent":9950, "coefficient":0.003},
+        {"precent":9975, "coefficient":0.001},
+        {"precent":9990, "coefficient":0.0005},
+        {"precent":9995, "coefficient":0.0003},
+        {"precent":9999, "coefficient":0.0001},
+        {"precent":9999.9, "coefficient":5e-05},
+        {"precent":9999.99, "coefficient":1e-05}
+    ],
+    "diamondTotalConfig":[
+        1, 1.1, 1.2, 1.5, 2, 2.5, 3, 3.5, 4, 5, 6, 7, 8, 10
+    ],
+    "diamondStepConfig":[
+        {"count":0, "weights":[0,0,0,0,0,0,2,2,2,2,2,0,0,0]},
+        {"count":5000, "weights":[0,0,0,0,0,0,2,3,3,2,0,0,0,0]},
+        {"count":6000, "weights":[0,0,0,0,0,2,3,3,2,0,0,0,0,0]},
+        {"count":7000, "weights":[0,0,0,0,0,2,2,2,2,2,0,0,0,0]},
+        {"count":8000, "weights":[0,0,0,0,2,2,2,2,2,0,0,0,0,0]},
+        {"count":9000, "weights":[0,0,0,2,2,2,2,2,0,0,0,0,0,0]},
+        {"count":9300, "weights":[0,0,2,2,2,2,2,0,0,0,0,0,0,0]},
+        {"count":9600, "weights":[0,2,2,2,2,2,0,0,0,0,0,0,0,0]},
+        {"count":9900, "weights":[0,4,3,3,0,0,0,0,0,0,0,0,0,0]},
+        {"count":9950, "weights":[3,5,3,0,0,0,0,0,0,0,0,0,0,0]},
+        {"count":9975, "weights":[10,5,0,0,0,0,0,0,0,0,0,0,0,0]},
+        {"count":9990, "weights":[10,2,0,0,0,0,0,0,0,0,0,0,0,0]},
+        {"count":9995, "weights":[10,0,0,0,0,0,0,0,0,0,0,0,0,0]},
+        {"count":9999, "weights":[10,0,0,0,0,0,0,0,0,0,0,0,0,0]}
+    ],
+    "goldTotalConfig":[
+        1, 1.1, 1.2, 1.5, 2, 2.5, 3, 3.5, 4, 5, 6, 7, 8, 10
+    ],
+    "goldStepConfig":[
+        {"count":0, "weights":[0,0,0,0,0,0,0,2,2,2,0,0,0,0]},
+        {"count":5000, "weights":[0,0,0,0,0,0,2,2,2,0,0,0,0,0]},
+        {"count":6000, "weights":[0,0,0,0,0,2,2,2,0,0,0,0,0,0]},
+        {"count":7000, "weights":[0,0,0,0,2,2,2,0,0,0,0,0,0,0]},
+        {"count":8000, "weights":[0,0,0,2,2,2,2,0,0,0,0,0,0,0]},
+        {"count":9000, "weights":[0,0,2,2,2,2,0,0,0,0,0,0,0,0]},
+        {"count":9300, "weights":[0,0,2,2,2,2,0,0,0,0,0,0,0,0]},
+        {"count":9600, "weights":[0,2,3,2,2,0,0,0,0,0,0,0,0,0]},
+        {"count":9900, "weights":[0,3,3,2,0,0,0,0,0,0,0,0,0,0]},
+        {"count":9950, "weights":[3,5,3,0,0,0,0,0,0,0,0,0,0,0]},
+        {"count":9975, "weights":[10,5,0,0,0,0,0,0,0,0,0,0,0,0]},
+        {"count":9990, "weights":[10,2,0,0,0,0,0,0,0,0,0,0,0,0]},
+        {"count":9995, "weights":[10,0,0,0,0,0,0,0,0,0,0,0,0,0]},
+        {"count":9999, "weights":[10,0,0,0,0,0,0,0,0,0,0,0,0,0]}
+    ]
+}
